@@ -14,31 +14,45 @@ html(lang="ja")
       #top-scroll
         h3 Scroll
         img(src="img/arrow.svg")
+      #top-image1
+        <svg version="1.1" viewBox="0 0 700 600">
+          <clipPath id="main_svgPath">
+            <path>
+              <animate dur="20s" repeatCount="indefinite" attributeName="d" attributeType="XML" keySplines=".42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1" keyTimes="0;.2;.4;.6;.8;1" calcMode="spline" values="M28.1,341.8c40.4,56,259,84,342,29s245-179,180-261s-280-142-384-91S-54.9,226.8,28.1,341.8z;M21.6,193.3c40.4,56,453,64,536,9s99-50,34-132s-269-89-373-38S-61.4,78.3,21.6,193.3z;M30.6,340.4c40.4,56,259-24,342-79s195-121,130-203s-246-68-350-17S-52.4,225.4,30.6,340.4z;M41.7,278c40.4,56,289,53,372-2s169-113,104-195s-301-105-405-54S-41.3,163,41.7,278z;M30.4,294.9c40.4,56,327,151,410,96s164-88,99-170s-282-263-386-212S-52.6,179.9,30.4,294.9z;M28.1,341.8c40.4,56,259,84,342,29s245-179,180-261s-280-142-384-91S-54.9,226.8,28.1,341.8z;">
+              </animate>
+            </path>
+          </clipPath>
+          <image x="-50" y="-120" width="700" height="700" xlink:href="img/top.png" clip-path="url(#main_svgPath)"></image>
+        </svg>
     #line
       img(src="img/line.svg").line
     each content, index in contents
       if index % 2 == 0
         .content-wrap.black-back
-          h1.type.content-right #{content.type}
+          h1.type.content-right.effect-right #{content.type}
           if typeof content.icons !== 'undefined'
-            .icons.content-right
+            .icons.content-right.effect-right
               each icon in content.icons
                 i(class=icon)
           if typeof content.link !== 'undefined'
             if content.aspect == "horizontal"
               a(href=content.link target="_blank")
-                img.content-left.yoko(src="img/" + content.img)
+                each img,index in content.img
+                  img.content-left.yoko.img-effect-left(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
               a(href=content.link target="_blank")
-                img.tate-content-left.tate(src="img/" + content.img)
+                each img,index in content.img
+                  img.tate-content-left.tate.img-effect-left(class="img"+index src="img/" + img)
           else
             if content.aspect == "horizontal"
-              img.content-left.yoko(src="img/" + content.img)
+              each img, index in content.img
+                img.content-left.yoko.img-effect-left(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
-              img.tate-content-left.tate(src="img/" + content.img)
+              each img, index in content.img
+                img.tate-content-left.tate.img-effect-left(class="img"+index src="img/" + img)
           
           .caption-wrap.content-right
-            .caption
+            .caption.effect-right
               if typeof content.link !== 'undefined'
                 a(href=content.link target="_blank").title #{content.title}
               else
@@ -47,26 +61,30 @@ html(lang="ja")
               p !{content.text}
       else
         .content-wrap
-          h1.type.content-left #{content.type}
+          h1.type.content-left.effect-left #{content.type}
           if typeof content.icons !== 'undefined'
-            .icons.content-left
+            .icons.content-left.effect-left
               each icon in content.icons
                 i(class=icon)
           if typeof content.link !== 'undefined'
             
             if content.aspect == "horizontal"
               a(href=content.link target="_blank")
-                img.content-right.yoko(src="img/" + content.img)
+                each img, index in content.img
+                  img.content-right.yoko.img-effect-right(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
               a(href=content.link target="_blank")
-                img.tate-content-right.tate(src="img/" + content.img)
+                each img, index in content.img
+                  img.tate-content-right.tate.img-effect-right(class="img"+index src="img/" + img)
           else
             if content.aspect == "horizontal"
-              img.content-right.yoko(src="img/" + content.img)
+              each img,index in content.img
+                img.content-right.yoko.img-effect-right(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
-              img.tate-content-right.tate(src="img/" + content.img)
+              each img, index in content.img
+                img.tate-content-right.tate.img-effect-right(class="img"+index src="img/" + img)
           .caption-wrap.content-left
-            .caption
+            .caption.effect-left
               if typeof content.link !== 'undefined'
                 a(href=content.link target="_blank").title #{content.title}
               else
