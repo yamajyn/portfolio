@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/*common*/
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 100ms 500ms ease;
+}
+
+body {
+  margin: auto;
+  color: #DBDBDB;
+  background-color: #2C2C2C;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: .3s;
+}
+
+a:hover {
+  color: #AFAFAF;
+  border-color: #AFAFAF;
+}
+
+.mincho {
+  font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", 'Kozuka Mincho Pro', "kozuka-mincho-pr6n",  "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.gothic {
+  font-family: "Futura Std","futura-pt","Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+.font-gray {
+  color: #DBDBDB;
+}
+
+/* top */
+#top {
+  width: 100%;
+  height: 100vh;
+}
+
+#top-name {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 10;
+}
+
+#top-scroll {
+  position: absolute;
+  width: 10vw;
+  bottom: 40px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  margin: auto;
+  z-index: 100;
+}
+
+#line {
+  position: absolute;
+  top: 90vh;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  width: 80vw;
+  z-index: 10;
+}
+
+/* main */
+.content-wrap {
+  position: relative;
+  width: 100%;
+  height: 50vw;
+}
+
+.content-wrap img {
+  position: absolute;
+  margin: auto;
+  z-index: 120;
+  transition: 0.5s ease;
+}
+
+.content-wrap img:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+.yoko {
+  width: 50vw;
+  top: 15vw;
+  bottom: 10vw;
+}
+
+.tate {
+  top: 0;
+  width: 30vw;
+  bottom: 0;
+}
+
+.black-back {
+  background-color: #212121;
+}
+
+.content-right {
+  right: 5vw;
+}
+
+.content-left {
+  left: 5vw;
+}
+
+.tate-content-right {
+  right: 10vw;
+}
+
+.tate-content-left {
+  left: 15vw;
+}
+
+.type {
+  position: absolute;
+  text-align: right;
+  z-index: 120;
+}
+
+.caption-wrap {
+  position: absolute;
+  bottom: 10vw;
+  top: 10vw;
+  width: 35vw;
+  margin: auto;
+  z-index: 20;
+}
+
+.caption-wrap p {
+  text-align: justify;
+  font-size: 1.4vw;
+  margin: 1vw 0 0 0;
+}
+
+.caption-wrap p a {
+  text-decoration: underline;
+}
+
+.caption {
+  bottom: 0;
+  position: absolute;
+}
+
+.title {
+  font-size: 3vw;
+  padding: 0 10px;
+  border-left: solid 5px #DBDBDB;
+}
+
+.date {
+  font-size: 1.5vw;
+}

@@ -1,0 +1,65 @@
+- var contents = data.contents.contents
+doctype html
+html(lang="ja")
+  head
+    link(rel="stylesheet", href="css/style.css")
+    link(rel="stylesheet" href="https://use.typekit.net/cgu7cwg.css")
+    script(src="js/jquery-3.2.1.min.js")
+    script(src="js/script.js")
+    title Junya Yamamoto
+  body.gothic
+    #top
+      h1#top-name.center Junya Yamamoto
+      #top-scroll
+        h3 Scroll
+    #line
+      img(src="img/line.svg").line
+    each content, index in contents
+      if index % 2 == 0
+        .content-wrap.black-back
+          h1.type.content-right #{content.type}
+          if typeof content.link !== 'undefined'
+            if content.aspect == "horizontal"
+              a(href=content.link target="_blank")
+                img.content-left.yoko(src="img/" + content.img)
+            else if content.aspect == "vertical"
+              a(href=content.link target="_blank")
+                img.tate-content-left.tate(src="img/" + content.img)
+          else
+            if content.aspect == "horizontal"
+              img.content-left.yoko(src="img/" + content.img)
+            else if content.aspect == "vertical"
+              img.tate-content-left.tate(src="img/" + content.img)
+          
+          .caption-wrap.content-right
+            .caption
+              if typeof content.link !== 'undefined'
+                a(href=content.link target="_blank").title #{content.title}
+              else
+                span.title #{content.title}
+              span.date #{content.date}
+              p !{content.text}
+      else
+        .content-wrap
+          h1.type.content-left #{content.type}
+          if typeof content.link !== 'undefined'
+            
+            if content.aspect == "horizontal"
+              a(href=content.link target="_blank")
+                img.content-right.yoko(src="img/" + content.img)
+            else if content.aspect == "vertical"
+              a(href=content.link target="_blank")
+                img.tate-content-right.tate(src="img/" + content.img)
+          else
+            if content.aspect == "horizontal"
+              img.content-right.yoko(src="img/" + content.img)
+            else if content.aspect == "vertical"
+              img.tate-content-right.tate(src="img/" + content.img)
+          .caption-wrap.content-left
+            .caption
+              if typeof content.link !== 'undefined'
+                a(href=content.link target="_blank").title #{content.title}
+              else
+                span.title #{content.title}
+              span.date #{content.date}
+              p!=content.text
