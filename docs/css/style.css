@@ -70,7 +70,7 @@ a:hover {
 #top-scroll {
   position: absolute;
   width: 10vw;
-  bottom: 40px;
+  bottom: 30px;
   right: 0;
   left: 0;
   text-align: center;
@@ -82,7 +82,7 @@ a:hover {
   position: absolute;
   top: 90vh;
   width: 100%;
-  height: 100px;
+  height: 0px;
   overflow: hidden;
 }
 
@@ -132,10 +132,12 @@ a:hover {
 
 .content-right {
   right: 5vw;
+  text-align: right;
 }
 
 .content-left {
   left: 5vw;
+  text-align: left;
 }
 
 .tate-content-right {
@@ -150,6 +152,19 @@ a:hover {
   position: absolute;
   text-align: right;
   z-index: 120;
+}
+
+.icons {
+  display: inline-block;
+  position: absolute;
+  width: 50vw;
+  top: 10vw;
+}
+
+i {
+  position: relative;
+  font-size: 3vw;
+  margin: 50px 0;
 }
 
 .caption-wrap {
@@ -173,6 +188,7 @@ a:hover {
 
 .caption {
   bottom: 0;
+  text-align: left;
   position: absolute;
 }
 
@@ -184,4 +200,10 @@ a:hover {
 
 .date {
   font-size: 1.5vw;
+}
+
+#bottom {
+  position: relative;
+  width: 100%;
+  height: 150vw;
 }

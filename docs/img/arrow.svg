@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="902.461 916.611 114.826 62.363">
+<svg id="グループ化_11" data-name="グループ化 11" xmlns="http://www.w3.org/2000/svg" viewBox="903.521 881.671 112.705 84.181">
   <defs>
     <style>
       .cls-1 {
         fill: none;
-        stroke: #dbdbdb;
-        stroke-width: 7px;
+        stroke: #afafaf;
+        stroke-width: 4px;
       }
     </style>
   </defs>
-  <path id="パス_2" data-name="パス 2" class="cls-1" d="M944.935,946.086l54.938,54.938,54.938-54.938" transform="translate(-40 -27)"/>
+  <path id="パス_10" data-name="パス 10" class="cls-1" d="M944.935,946.086l54.938,54.938,54.938-54.938" transform="translate(-40 -38)"/>
+  <path id="パス_12" data-name="パス 12" class="cls-1" d="M944.935,946.086l54.938,54.938,54.938-54.938" transform="translate(-40 -63)"/>
 </svg>

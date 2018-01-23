@@ -4,6 +4,7 @@ html(lang="ja")
   head
     link(rel="stylesheet", href="css/style.css")
     link(rel="stylesheet" href="https://use.typekit.net/cgu7cwg.css")
+    link(rel="stylesheet", href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css")
     script(src="js/jquery-3.2.1.min.js")
     script(src="js/script.js")
     title Junya Yamamoto
@@ -12,12 +13,17 @@ html(lang="ja")
       h1#top-name.center Junya Yamamoto
       #top-scroll
         h3 Scroll
+        img(src="img/arrow.svg")
     #line
       img(src="img/line.svg").line
     each content, index in contents
       if index % 2 == 0
         .content-wrap.black-back
           h1.type.content-right #{content.type}
+          if typeof content.icons !== 'undefined'
+            .icons.content-right
+              each icon in content.icons
+                i(class=icon)
           if typeof content.link !== 'undefined'
             if content.aspect == "horizontal"
               a(href=content.link target="_blank")
@@ -42,6 +48,10 @@ html(lang="ja")
       else
         .content-wrap
           h1.type.content-left #{content.type}
+          if typeof content.icons !== 'undefined'
+            .icons.content-left
+              each icon in content.icons
+                i(class=icon)
           if typeof content.link !== 'undefined'
             
             if content.aspect == "horizontal"
@@ -63,3 +73,4 @@ html(lang="ja")
                 span.title #{content.title}
               span.date #{content.date}
               p!=content.text
+    #bottom

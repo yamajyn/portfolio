@@ -5,6 +5,12 @@
       "date":"2017.01.22",
       "title":"ia2018",
       "link":"https://ia2018.com",
+      "icons":[
+        "devicon-gulp-plain",
+        "devicon-html5-plain-wordmark",
+        "devicon-sass-original",
+        "devicon-jquery-plain-wordmark"
+      ],
       "text":"所属する首都大学東京システムデザイン学部インダストリアルアートコースの卒業制作展公式WEBサイトを担当。Questというコンセプトから、中央を空間の出口に見立て、奥行きのある空間から情報が出る。",
       "img":"ia2018.png",
       "aspect":"horizontal"
@@ -14,6 +20,15 @@
       "date":"2017.01.10",
       "title":"Phrase Viewer",
       "link":"https://yamajyn.github.io/PhraseViewer/",
+      "icons":[
+        "devicon-illustrator-line",
+        "devicon-gulp-plain",
+        "devicon-html5-plain-wordmark",
+        "devicon-sass-original",
+        "devicon-jquery-plain-wordmark",
+        "devicon-nodejs-plain-wordmark",
+        "devicon-javascript-plain"
+      ],
       "text":"小説のお気に入りフレーズを画面に共有できるビューアーサイト。気に入ったフレーズを選択し投稿することで、トップ画面にフレーズが流れる。<a href='https://tategaki.github.io/awards/' target='_blank'>たてよこWebアワード2017</a>応募作品。",
       "img":"phrase.png",
       "aspect":"horizontal"
@@ -23,6 +38,13 @@
       "date":"2017.1.18",
       "title":"Hapbeat.com",
       "link":"http://hapbeat.com",
+      "icons":[
+        "devicon-illustrator-line",
+        "devicon-gulp-plain",
+        "devicon-html5-plain-wordmark",
+        "devicon-sass-original",
+        "devicon-jquery-plain-wordmark"
+      ],
       "text":"東工大発ベンチャー企業のプロモーションサイトを制作。製品小型化・軽量化のため、以前のサイトからイメージを明るく一新させ、先進的でカジュアルな印象をねらった。情報を細分化し、ユーザが欲しい情報へのアクセスをしやすくした。",
       "img":"newHapbeat.png",
       "aspect":"horizontal"
@@ -32,6 +54,15 @@
       "date":"2017.12.10",
       "title":"drafty",
       "link":"https://www.drafty.jp",
+      "icons":[
+        "devicon-illustrator-line",
+        "devicon-amazonwebservices-plain-wordmark",
+        "devicon-html5-plain-wordmark",
+        "devicon-css3-plain-wordmark",
+        "devicon-nodejs-plain-wordmark",
+        "devicon-jquery-plain-wordmark",
+        "devicon-javascript-plain"
+      ],
       "text":"デザイナーとユーザをつなげるSNSを制作。ユーザセンタードデザインの広がりから、ユーザからのフィードバックを得やすくすることを目的とした。ユーザーが着目した箇所を強調して表示し、コメントとともに投稿することができる。",
       "img":"drafty.png",
       "aspect":"horizontal"
@@ -40,6 +71,9 @@
       "type":"WEB Design",
       "date":"2017.10.30",
       "title":"IA(TBD)",
+      "icons":[
+        "devicon-illustrator-line"
+      ],
       "text":"所属する首都大学東京システムデザイン学部インダストリアルアートコースの公式WEBサイトのデザインを担当。白を基調とし、コンテンツを中心とした情報デザインを行った。2018年の公開を予定。",
       "img":"ia.png",
       "aspect":"horizontal"
@@ -49,6 +83,10 @@
       "date":"2017.09.25",
       "title":"お米のあじくらべ",
       "link":"https://www.facebook.com/uonumashiyokone/posts/1994503567434773",
+      "icons":[
+        "devicon-illustrator-line",
+        "devicon-photoshop-line"
+      ],
       "text":"夏合宿で新潟県横根村を訪れた際に行ったハッカソンでの制作物。グループで横根村をまわり調査を行ったのち、どういった方法で横根の良さを発信できるか考えた。農家ごとのお米の味を「おすすめのおかず」とともに頂き、味を比べるというイベントを企画。現地の方にプレゼンを行った。",
       "img":"okome.jpg",
       "aspect":"vertical"
@@ -58,6 +96,10 @@
       "date":"2017.08.29",
       "title":"minmin BEAT BOX",
       "link":"https://hacku.yahoo.co.jp/hacku2017tokyo/",
+      "icons":[
+        "devicon-illustrator-line",
+        "devicon-swift-plain-wordmark"
+      ],
       "text":"煩わしい夏のセミの鳴き声をエキサイティングにするデバイス。無意味で煩わしいセミの鳴き声を音源として用い、リアルタイムでエフェクトをかけ、ビートを作り出す。iOSのシステムとフロントデザインを担当。<a href='https://hacku.yahoo.co.jp/hacku2017tokyo/'>Yahoo!JAPAN主催 Hack U 東京大会</a>にて最優秀賞・Happy Hacking賞を受賞。",
       "img":"minminbeatbox-poster-ol.png",
       "aspect":"horizontal"
