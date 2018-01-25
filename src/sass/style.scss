@@ -38,10 +38,26 @@ a:hover{
   color:#DBDBDB;
 }
 .effect-right{
-  transition:1s;
+  opacity:0;
+  transition:1.2s;
+  transform:translateX(100px);
 }
 .effect-left{
-  transition:1s;
+  opacity:0;
+  transition:1.2s;
+  transform:translateX(-100px);
+}
+.imgs{
+  opacity:0;
+  transition:1.2s;
+}
+.img-effect-right{
+  transition:1.2s;
+  transform:translateX(100px);
+}
+.img-effect-left{
+  transition:1.2s;
+  transform:translateX(-100px);
 }
 
 /* top */

@@ -38,18 +38,22 @@ html(lang="ja")
             if content.aspect == "horizontal"
               a(href=content.link target="_blank")
                 each img,index in content.img
-                  img.content-left.yoko.img-effect-left(class="img"+index src="img/" + img)
+                  .imgs
+                    img.content-left.yoko.img-effect-left(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
               a(href=content.link target="_blank")
                 each img,index in content.img
-                  img.tate-content-left.tate.img-effect-left(class="img"+index src="img/" + img)
+                  .imgs
+                    img.tate-content-left.tate.img-effect-left(class="img"+index src="img/" + img)
           else
             if content.aspect == "horizontal"
               each img, index in content.img
-                img.content-left.yoko.img-effect-left(class="img"+index src="img/" + img)
+                .imgs
+                  img.content-left.yoko.img-effect-left(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
               each img, index in content.img
-                img.tate-content-left.tate.img-effect-left(class="img"+index src="img/" + img)
+                .imgs
+                  img.tate-content-left.tate.img-effect-left(class="img"+index src="img/" + img)
           
           .caption-wrap.content-right
             .caption.effect-right
@@ -71,18 +75,22 @@ html(lang="ja")
             if content.aspect == "horizontal"
               a(href=content.link target="_blank")
                 each img, index in content.img
-                  img.content-right.yoko.img-effect-right(class="img"+index src="img/" + img)
+                  .imgs
+                    img.content-right.yoko.img-effect-right(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
               a(href=content.link target="_blank")
                 each img, index in content.img
-                  img.tate-content-right.tate.img-effect-right(class="img"+index src="img/" + img)
+                  .imgs
+                    img.tate-content-right.tate.img-effect-right(class="img"+index src="img/" + img)
           else
             if content.aspect == "horizontal"
               each img,index in content.img
-                img.content-right.yoko.img-effect-right(class="img"+index src="img/" + img)
+                .imgs
+                  img.content-right.yoko.img-effect-right(class="img"+index src="img/" + img)
             else if content.aspect == "vertical"
               each img, index in content.img
-                img.tate-content-right.tate.img-effect-right(class="img"+index src="img/" + img)
+                .imgs
+                  img.tate-content-right.tate.img-effect-right(class="img"+index src="img/" + img)
           .caption-wrap.content-left
             .caption.effect-left
               if typeof content.link !== 'undefined'
