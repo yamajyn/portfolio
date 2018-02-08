@@ -120,6 +120,7 @@ a:hover{
   position:relative;
   width:100%;
   height:50vw;
+  z-index: 200;
   img{
     position:absolute;
     margin:auto;
@@ -177,6 +178,10 @@ a:hover{
   bottom:0;
 }
 .black-back{
+  position:absolute;
+  width:100%;
+  height:50vw;
+  z-index: 0;
   background-color: #212121;
 }
 .content-right{

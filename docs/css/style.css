@@ -141,6 +141,7 @@ a:hover {
   position: relative;
   width: 100%;
   height: 50vw;
+  z-index: 200;
 }
 
 .content-wrap img {
@@ -203,6 +204,10 @@ a:hover {
 }
 
 .black-back {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  z-index: 0;
   background-color: #212121;
 }
 

@@ -28,7 +28,8 @@ html(lang="ja")
       img(src="img/line.svg").line
     each content, index in contents
       if index % 2 == 0
-        .content-wrap.black-back
+        .black-back
+        .content-wrap
           h1.type.content-right.effect-right #{content.type}
           if typeof content.icons !== 'undefined'
             .icons.content-right.effect-right
