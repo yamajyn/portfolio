@@ -78,7 +78,7 @@
         "devicon-git-plain-wordmark",
         "devicon-mysql-plain-wordmark"
       ],
-      "text":"デザイナーとユーザをつなげるSNSを制作。ユーザセンタードデザインの広がりから、ユーザからのフィードバックを得やすくすることを目的とした。ユーザーが着目した箇所を強調して表示し、コメントとともに投稿することができる。",
+      "text":"ユーザが着目した箇所の可視化を行うSNSを制作・公開した。デザインやイラストなどのフィードバックを得やすくすることを目的とし、直感的な入力を行えるよう工夫した。ユーザテストを実施した結果、従来のコメントによるフィードバックと比べ、容易にフィードバックを行えることがわかった。論文は<a href='https://drive.google.com/file/d/10CdPXuGDAifPyGXfznztQDbsI-cCYukZ/view'>こちら</a>",
       "img":[
         "drafty.png",
         "drafty-2.png"
@@ -94,7 +94,8 @@
       ],
       "text":"所属する首都大学東京システムデザイン学部インダストリアルアートコースの公式WEBサイトのデザインを担当。白を基調とし、コンテンツを中心とした情報デザインを行った。2018年の公開を予定。",
       "img":[
-        "ia.png"
+        "ia.png",
+        "ia-2.png"
       ],
       "aspect":"horizontal"
     },
@@ -107,7 +108,7 @@
         "devicon-illustrator-line",
         "devicon-photoshop-line"
       ],
-      "text":"夏合宿で新潟県横根村を訪れた際に行ったハッカソンでの制作物。グループで横根村をまわり調査を行ったのち、どういった方法で横根の良さを発信できるか考えた。農家ごとのお米の味を「おすすめのおかず」とともに頂き、味を比べるというイベントを企画。現地の方にプレゼンを行った。",
+      "text":"夏合宿で新潟県横根村を訪れた際に行ったハッカソンでの制作物。農家ごとのお米の味を「おすすめのおかず」とともに頂き、味を比べるというイベントを企画。現地の方にプレゼンを行った。グループで横根村の調査を行ったのち、どういった手法で横根の良さを発信できるか考えた。",
       "img":[
         "okome.jpg"
       ],
@@ -117,16 +118,50 @@
       "type":"App Front Design & Coding ",
       "date":"2017.08.29",
       "title":"minmin BEAT BOX",
-      "link":"https://hacku.yahoo.co.jp/hacku2017tokyo/",
+      "link":"https://www.youtube.com/watch?v=ksHpQuMxZig",
       "icons":[
         "devicon-illustrator-line",
         "devicon-swift-plain-wordmark",
         "devicon-git-plain-wordmark"
       ],
-      "text":"煩わしい夏のセミの鳴き声をエキサイティングにするデバイス。無意味で煩わしいセミの鳴き声を音源として用い、リアルタイムでエフェクトをかけ、ビートを作り出す。iOSのシステムとフロントデザインを担当。<a href='https://hacku.yahoo.co.jp/hacku2017tokyo/'>Yahoo!JAPAN主催 Hack U 東京大会</a>にて最優秀賞・Happy Hacking賞。第23回学生CGコンテスト最終審査ノミネート作品。",
+      "text":"煩わしい夏のセミの鳴き声をエキサイティングにするデバイス。iOSのシステムとフロントデザインを担当し、ボタンやパッドのインターフェース部分のエフェクトにこだわった。<a href='https://hacku.yahoo.co.jp/hacku2017tokyo/'>Yahoo!JAPAN主催 Hack U 東京大会</a>にて最優秀賞・Happy Hacking賞。第23回学生CGコンテスト最終審査ノミネート作品。",
       "img":[
         "minminbeatbox-poster-ol.png",
         "minmin-2.JPG"
+      ],
+      "aspect":"horizontal"
+    },
+    {
+      "type":"All Front Coding & Design",
+      "date":"2016.10",
+      "title":"ウテシム2D",
+      "link":"https://vimeo.com/200031380",
+      "icons":[
+        "devicon-illustrator-line",
+        "devicon-swift-plain-wordmark",
+        "devicon-git-plain-wordmark"
+      ],
+      "text":"iOS用の2Dゲームアプリ、ウテシム2Dを開発。swiftによるゲームの制作方法を学ぶとともに、スマートフォン用のフロントデザインを学んだ。操作方法をわかりやすくするため、実物の運転台に近いマテリアルデザインを行なうとともに、メニューボタンのアニメーションに力を入れた。",
+      "img":[
+        "uteshimu04.png",
+        "uteshimu05.png"
+      ],
+      "aspect":"horizontal"
+    },
+    {
+      "type":"App Front Coding ",
+      "date":"2016.07",
+      "title":"しむたま 多摩地区開発シミュレーションゲーム",
+      "link":"https://yamajyn.github.io/TamaSim/",
+      "icons":[
+        "devicon-html5-plain-wordmark",
+        "devicon-illustrator-line",
+        "devicon-javascript-plain",
+        "devicon-git-plain-wordmark"
+      ],
+      "text":"WEB基礎という授業にて、多摩ニュータウン地区の開発の歴史を学ぶことができる開発シミュレーションゲーム「たましむ」を開発。フロントのプログラムと建物のイラストを担当し、WEB上で動くアプリケーションを初めて制作した。お試しは<a href='https://yamajyn.github.io/TamaSim/'>こちら</a>",
+      "img":[
+        "simtama.png"
       ],
       "aspect":"horizontal"
     }
