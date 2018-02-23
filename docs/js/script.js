@@ -1,10 +1,11 @@
 $(function(){
+  const dHeight = $(document).height();
+  const windowHeight = $(window).height();
   $(window).scroll(function() {
-    const dHeight = $(document).height();
     const pos = $(window).scrollTop();
-    $('#line').height(pos-window.innerHeight * ( dHeight-pos-200)/dHeight + 200);
+    const lineHeight = pos-window.innerHeight * ( dHeight-pos-200)/dHeight + 200;
+    $('#line').height(lineHeight > dHeight ? dHeight : lineHeight);
     const scroll = $(window).scrollTop();
-    const windowHeight = $(window).height();
     $(".effect-right").each(function(){
       var imgPos = $(this).offset().top;
       if (scroll > imgPos - windowHeight + windowHeight/5){
