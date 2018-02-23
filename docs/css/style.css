@@ -182,12 +182,13 @@ a:hover {
 
 .img0 {
   z-index: 120;
+  animation: fade 6s linear 0s infinite normal both;
 }
 
 .img1 {
   z-index: 130;
   opacity: 0;
-  animation: fade 8s linear 4s infinite normal both;
+  animation: fade 6s linear 3s infinite normal both;
 }
 
 @keyframes fade {
@@ -337,8 +338,8 @@ i {
     height: 70vh;
   }
   .yoko {
-    width: 80vw;
-    max-height: 28vh;
+    width: auto;
+    max-height: 25vh;
     margin: auto;
     top: 0;
     bottom: 10vw;
@@ -382,7 +383,7 @@ i {
   }
   .caption-wrap {
     position: absolute;
-    bottom: 5vw;
+    bottom: 3vw;
     top: 10vw;
     width: 85vw;
   }
@@ -395,7 +396,7 @@ i {
     text-decoration: underline;
   }
   .caption {
-    bottom: 1vh;
+    bottom: 2vh;
     text-align: left;
     position: absolute;
   }
