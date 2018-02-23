@@ -11,7 +11,7 @@ $(document).ready(function(){
   });
   var timer = setInterval(function() { //ローディング状況をプログレスバーに反映
 
-      $('.progressbar').delay(200).css({
+      $('.progressbar').css({
           'width': (loadStatus / img_num) * 100 + '%' //読み込まれた画像の数 / 読み込む画像の数 * %  これをプログレスバーのwidthに設定 
       });
       if((loadStatus / img_num) * 100 == 100){ //ローディング完了後にプログレスバーを非表示
