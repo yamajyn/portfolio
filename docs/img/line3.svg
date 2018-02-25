@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="250.769 999.007 1414.321 10541.993">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #afafaf;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: #dbdbdb;
+      }
+
+      .cls-2 {
+        font-size: 128px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-family: Futura-Medium, Futura;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        font-size: 30px;
+      }
+
+      .cls-4 {
+        font-size: 48px;
+      }
+
+      .cls-5 {
+        font-size: 32px;
+      }
+
+      .cls-6 {
+        font-size: 38px;
+      }
+
+      .cls-7 {
+        font-size: 35px;
+      }
+    </style>
+  </defs>
+  <g id="グループ化_13" data-name="グループ化 13" transform="translate(-59 29)">
+    <g id="グループ化_10" data-name="グループ化 10" transform="translate(0 1)">
+      <path id="パス_1" data-name="パス 1" class="cls-1" d="M1030.594,79.48V211.047c0,246.311-716.028,307.332-707.754,616.242s1381.89,321.211,1411.767,782.417S402.159,2245.414,402.159,2564.185s1248.1,428.984,1248.1,834.262S410.482,3703.164,402.159,4185.3s1199.353,260.187,1208.326,783.8S542.349,5500,535.211,5937.163c0,579.192,792.049,460.429,939.964,791.106S658.208,7019.2,548.5,7342.016c-97.638,287.3,823.7,497.447,827.783,742.169s-339.937,346.476-339.937,949.369v1183.3" transform="translate(-12 933)"/>
+      <path id="パス_11" data-name="パス 11" class="cls-1" d="M944.14,958.8l55.733,42.22,54.144-42.22" transform="translate(19 11)"/>
+    </g>
+    <g id="グループ化_12" data-name="グループ化 12" transform="translate(63 3759)">
+      <text id="Thank_you_" data-name="Thank you!" class="cls-2" transform="translate(662 7719)"><tspan x="0" y="0">Thank you!</tspan></text>
+      <text id="_1995.05.27" data-name="1995.05.27" class="cls-3" transform="translate(879 7434)"><tspan x="0" y="0">1995.05.27</tspan></text>
+      <g id="グループ化_7" data-name="グループ化 7" transform="translate(-20 -8171)">
+        <text id="Tokyo_Metropolitan_University" data-name="Tokyo Metropolitan University" class="cls-4" transform="translate(1016 14954)"><tspan x="0" y="0">Tokyo Metropolitan University</tspan></text>
+        <text id="_2014.04-" data-name="2014.04-" class="cls-5" transform="translate(1016 14896)"><tspan x="0" y="0">2014.04-</tspan></text>
+        <text id="Faculity_of_System_Design" data-name="Faculity of System Design" class="cls-6" transform="translate(1016 15005)"><tspan x="0" y="0">Faculity of System Design</tspan></text>
+        <text id="Industrial_Art" data-name="Industrial Art" class="cls-7" transform="translate(1016 15046)"><tspan x="0" y="0">Industrial Art</tspan></text>
+      </g>
+      <circle id="楕円形_1" data-name="楕円形 1" class="cls-8" cx="21" cy="21" r="21" transform="translate(939 6722)"/>
+      <circle id="楕円形_2" data-name="楕円形 2" class="cls-8" cx="21" cy="21" r="21" transform="translate(939 6966)"/>
+      <g id="グループ化_8" data-name="グループ化 8" transform="translate(18 -7937)">
+        <text id="Kofu-Nishi_High_School" data-name="Kofu-Nishi High School" class="cls-4" transform="translate(410 14954)"><tspan x="0" y="0">Kofu-Nishi High School</tspan></text>
+        <text id="_2011.04-" data-name="2011.04-" class="cls-5" transform="translate(791 14896)"><tspan x="0" y="0">2011.04-</tspan></text>
+      </g>
+      <circle id="楕円形_3" data-name="楕円形 3" class="cls-8" cx="21" cy="21" r="21" transform="translate(939 6543)"/>
+      <g id="グループ化_9" data-name="グループ化 9" transform="translate(19 -8350)">
+        <text id="Network_Design_Studio" data-name="Network Design Studio" class="cls-4" transform="translate(405 14954)"><tspan x="0" y="0">Network Design Studio</tspan></text>
+        <text id="_2017.04-" data-name="2017.04-" class="cls-5" transform="translate(791 14896)"><tspan x="0" y="0">2017.04-</tspan></text>
+      </g>
+      <text id="Junya_Yamamoto" data-name="Junya Yamamoto" class="cls-4" transform="translate(771 7516)"><tspan x="0" y="0">Junya Yamamoto</tspan></text>
+    </g>
+  </g>
+</svg>

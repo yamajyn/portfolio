@@ -133,6 +133,21 @@
       "aspect":"horizontal"
     },
     {
+      "type":"Device Design & Coding",
+      "date":"2017.03",
+      "title":"Sound Cray Tablet",
+      "link":"http://www.interaction-ipsj.org/proceedings/2017/data/pdf/3-405-54.pdf",
+      "icons":[
+        "devicon-cplusplus-plain"
+      ],
+      "text":"粘土をインターフェースとした音楽デバイスを制作。電子基盤・3Dプリンターによる筐体設計、マイコンのプログラムを行なった。インタラクション2017のインタラクティブ発表にて論文採択。展示を行なった",
+      "img":[
+        "sct.jpg",
+        "sct-2.jpg"
+      ],
+      "aspect":"horizontal"
+    },
+    {
       "type":"All Front Coding & Design",
       "date":"2016.10",
       "title":"ウテシム2D",
@@ -152,7 +167,7 @@
     {
       "type":"App Front Coding ",
       "date":"2016.07",
-      "title":"しむたま 多摩地区開発シミュレーションゲーム",
+      "title":"しむたま ",
       "link":"https://yamajyn.github.io/TamaSim/",
       "icons":[
         "devicon-html5-plain-wordmark",
@@ -160,7 +175,7 @@
         "devicon-javascript-plain",
         "devicon-git-plain-wordmark"
       ],
-      "text":"WEB基礎という授業にて、多摩ニュータウン地区の開発の歴史を学ぶことができる開発シミュレーションゲーム「たましむ」を開発。フロントのプログラムと建物のイラストを担当し、WEB上で動くアプリケーションを初めて制作した。お試しは<a href='https://yamajyn.github.io/TamaSim/'>こちら</a>",
+      "text":"WEB基礎という授業にて、多摩ニュータウン地区の開発の歴史を学ぶことができる開発シミュレーションゲーム「しむたま」を開発。フロントのプログラムと建物のイラストを担当し、WEB上で動くアプリケーションを初めて制作した。お試しは<a href='https://yamajyn.github.io/TamaSim/'>こちら</a>",
       "img":[
         "simtama.png",
         "simtama2.png"
